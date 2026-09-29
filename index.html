@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AETHERIA EXPEDITIONS | Curated Luxury Travel & Bespoke Journeys</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Aetheria Expeditions crafts bespoke, ultra-luxury journeys and private expeditions to the world's most breathtaking sanctuaries. Experience unforgettable travel.">
+  <meta name="keywords" content="luxury travel agency, bespoke journeys, private expeditions, Bora Bora luxury, Swiss Alps chalet, Serengeti safari, Iceland aurora">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="AETHERIA EXPEDITIONS | Curated Luxury Travel">
+  <meta property="og:description" content="Bespoke luxury expeditions to the world's most pristine and secluded havens.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧭</text></svg>">
+
+  <!-- Font Awesome Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="container">
+      <span>✦ <strong>2026/2027 Signature Expeditions Now Open</strong> — Private charters & secluded villas available.</span>
+      <a href="#inquiry">Inquire for Private Access →</a>
+    </div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo" id="logo">
+        <div class="brand-icon">
+          <i class="fa-solid fa-compass"></i>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">AETHERIA</span>
+          <span class="brand-tagline">Expeditions</span>
+        </div>
+      </a>
+
+      <!-- Pure CSS Mobile Hamburger Toggle -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Toggle navigation menu">
+      <label for="nav-toggle" class="nav-toggle-label" id="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Navigation Links -->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#destinations">Destinations</a></li>
+          <li><a href="#signature">Signature Odyssey</a></li>
+          <li><a href="#pillars">The Distinction</a></li>
+          <li><a href="#testimonials">Stories</a></li>
+          <li><a href="#inquiry">Bespoke Inquiry</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Button & Quick Contact -->
+      <div class="nav-actions">
+        <div class="nav-contact-quick">
+          <small>Concierge Desk</small>
+          <span>+1 (800) 892-3844</span>
+        </div>
+        <a href="#inquiry" class="btn btn-primary btn-sm">Plan Your Journey</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-overlay-glow"></div>
+      
+      <div class="container hero-content">
+        <div class="hero-badge-wrap">
+          <span class="badge badge-glow">
+            <i class="fa-solid fa-gem"></i> Curated Bespoke Expeditions
+          </span>
+        </div>
+
+        <h1 class="hero-title">
+          Where Rare Wonders Meet <br>
+          <span class="gradient-text">Unrivaled Luxury</span>
+        </h1>
+
+        <p class="hero-description">
+          Handcrafted private journeys to the planet's most pristine sanctuaries. Experience secluded overwater villas, untouched alpine retreats, and timeless cultural sanctuaries curated exclusively for discerning travelers.
+        </p>
+
+        <!-- Expedition Finder Search Bar -->
+        <div class="hero-search-card">
+          <form class="search-form-grid" action="#destinations" method="GET">
+            <div class="search-field">
+              <label class="search-label" for="search-destination">
+                <i class="fa-solid fa-location-dot"></i> Destination
+              </label>
+              <select id="search-destination" class="search-select" name="destination">
+                <option value="all">All Sanctuaries</option>
+                <option value="polynesia">French Polynesia (Bora Bora)</option>
+                <option value="alps">Swiss Alps & Zermatt</option>
+                <option value="kyoto">Kyoto & Arashiyama, Japan</option>
+                <option value="amalfi">Amalfi Coast, Italy</option>
+                <option value="serengeti">Serengeti Plains, Tanzania</option>
+                <option value="iceland">Southern Fjords, Iceland</option>
+              </select>
+            </div>
+
+            <div class="search-field">
+              <label class="search-label" for="search-style">
+                <i class="fa-solid fa-compass"></i> Travel Style
+              </label>
+              <select id="search-style" class="search-select" name="style">
+                <option value="private-island">Private Island Villa</option>
+                <option value="alpine-heli">Heli-Ski & Alpine Solitude</option>
+                <option value="cultural-heritage">Imperial Heritage & Zen</option>
+                <option value="safari-wildlife">Wilderness & Aerial Safari</option>
+                <option value="aurora-expedition">Arctic Aurora Retreat</option>
+              </select>
+            </div>
+
+            <div class="search-field">
+              <label class="search-label" for="search-duration">
+                <i class="fa-regular fa-calendar-check"></i> Duration
+              </label>
+              <select id="search-duration" class="search-select" name="duration">
+                <option value="7-10">7 to 10 Days</option>
+                <option value="10-14">10 to 14 Days</option>
+                <option value="14-plus">2+ Weeks (Grand Tour)</option>
+                <option value="custom">Custom Itinerary</option>
+              </select>
+            </div>
+
+            <div class="search-field">
+              <label class="search-label" for="search-travelers">
+                <i class="fa-solid fa-users"></i> Travelers
+              </label>
+              <select id="search-travelers" class="search-select" name="travelers">
+                <option value="couple">Couple / 2 Guests</option>
+                <option value="solo">Solo Explorer</option>
+                <option value="family">Private Family (3-6)</option>
+                <option value="charter">Private Group Charter</option>
+              </select>
+            </div>
+
+            <div class="search-btn-wrap">
+              <button type="submit" class="btn btn-primary" id="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i> Explore
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Trust Stats Bar -->
+        <div class="hero-stats-row">
+          <div class="hero-stat-item">
+            <span class="hero-stat-num text-gold">54+</span>
+            <span class="hero-stat-desc">Exclusive Global<br>Sanctuaries</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="hero-stat-num text-gold">99.8%</span>
+            <span class="hero-stat-desc">Five-Star Guest<br>Satisfaction</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="hero-stat-num text-gold">100%</span>
+            <span class="hero-stat-desc">Carbon-Balanced<br>Certified Travel</span>
+          </div>
+          <div class="hero-stat-item">
+            <span class="hero-stat-num text-gold">24/7</span>
+            <span class="hero-stat-desc">Personal Private<br>Concierge</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Curated Destinations Grid -->
+    <section class="section section-pattern" id="destinations">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-subtitle">Handcrafted Portfolios</span>
+          <h2 class="section-title">Iconic Expeditions For The Discerning</h2>
+          <p class="section-desc">
+            Each voyage is personally chartered and tailored to your rhythm—combining world-class private estates, legendary gastronomy, and rare localized experiences.
+          </p>
+        </div>
+
+        <!-- Pure CSS Filter Pills -->
+        <div class="filter-container">
+          <a href="#destinations" class="filter-btn active">All Destinations</a>
+          <a href="#destinations" class="filter-btn">Tropical & Islands</a>
+          <a href="#destinations" class="filter-btn">Alpine & Nordic</a>
+          <a href="#destinations" class="filter-btn">Cultural Havens</a>
+          <a href="#destinations" class="filter-btn">Wildlife & Safari</a>
+        </div>
+
+        <!-- Grid of 6 Featured Destinations -->
+        <div class="destinations-grid">
+
+          <!-- Destination 1: Bora Bora -->
+          <article class="dest-card" id="card-borabora">
+            <div class="dest-image-wrap">
+              <img src="images/hero.jpg" alt="Luxury overwater villa in Bora Bora lagoon" class="dest-image" loading="lazy">
+              <div class="dest-image-gradient"></div>
+              <span class="badge badge-glow dest-badge-top">Island Haven</span>
+              <div class="dest-rating">
+                <span>★</span> 4.99
+              </div>
+              <div class="dest-location-tag">
+                <i class="fa-solid fa-location-dot"></i> Bora Bora & Taha'a, French Polynesia
+              </div>
+            </div>
+            <div class="dest-content">
+              <h3 class="dest-title">The Azure Overwater Sanctuary</h3>
+              <p class="dest-tagline">Glass-bottom ocean villas, private sunset catamaran charter, and secluded motu champagne tastings.</p>
+              
+              <ul class="dest-features-list">
+                <li class="dest-feature-tag"><i class="fa-solid fa-water"></i> Private Lagoon Villa</li>
+                <li class="dest-feature-tag"><i class="fa-solid fa-sailboat"></i> Riva Yacht Charter</li>
+                <li class="dest-feature-tag"><i class="fa-solid fa-utensils"></i> Michelin-Trained Chef</li>
+              </ul>
+
+              <div class="dest-footer">
+                <div class="dest-pricing">
+                  <span class="dest-price-label">8 Days • 7 Nights</span>
+                  <span class="dest-price-val">$5,800 <span class="dest-price-unit">/ guest</span></span>
+                </div>
+                <a href="#modal-borabora" class="btn btn-outline-gold btn-sm">View Itinerary</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Destination 2: Swiss Alps -->
+          <article class="dest-card" id="card-alps">
+            <div class="dest-image-wrap">
+              <img src="images/alps.jpg" alt="Luxury Alpine chalet in Zermatt Swiss Alps" class="dest-image" loading="lazy">
+              <div class="dest-image-gradient"></div>
+              <span class="badge badge-glow dest-badge-top">Alpine Summit</span>
+              <div class="dest-rating">
+                <span>★</span> 4.98
+              </div>
+              <div class="dest-location-tag">
+                <i class="fa-solid fa-location-dot"></i> Zermatt & Valais, Switzerland
+              </div>
+            </div>
+            <div class="dest-content">
+              <h3 class="dest-title">Matterhorn High-Altitude Solitude</h3>
+              <p class="dest-tagline">Architectural glass chalets with direct Matterhorn views, private heli-skiing, and geothermal cedar hot tubs.</p>
+              
+              <ul class="dest-features-list">
+                <li class="dest-feature-tag"><i class="fa-solid fa-mountain"></i> Matterhorn Panorama</li>
+                <li class="dest-feature-tag"><i class="fa-solid fa-helicopter"></i> Heli Glacier Flight</li>
+                <li class="dest-feature-tag"><i class="fa-solid fa-fire"></i> Private Fireplace Spa</li>
+              </ul>
+
+              <div class="dest-footer">
+                <div class="dest-pricing">
+                  <span class="dest-price-label">7 Days • 6 Nights</span>
+                  <span class="dest-price-val">$6,400 <span class="dest-price-unit">/ guest</span></span>
+                </div>
+                <a href="#modal-alps" class="btn btn-outline-gold btn-sm">View Itinerary</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Destination 3: Kyoto Japan -->
+          <article class="dest-card" id="card-kyoto">
+            <div class="dest-image-wrap">
+              <img src="images/kyoto.jpg" alt="Traditional luxury ryokan garden in Kyoto" class="dest-image" loading="lazy">
+              <div class="dest-image-gradient"></div>
+              <span class="badge badge-glow dest-badge-top">Imperial Heritage</span>
+              <div class="dest-rating">
+                <span>★</span> 4.97
+              </div>
+              <div class="dest-location-tag">
+                <i class="fa-solid fa-location-dot"></i> Kyoto & Arashiyama, Japan
+              </div>
+            </div>
+            <div class="dest-content">
+              <h3 class="dest-title">Zen Sanctuaries & Imperial Ryokans</h3>
+              <p class="dest-tagline">Dawn access to ancient bamboo groves, private multi-generational tea ceremonies, and kaiseki dining.</p>
+              
+              <ul class="dest-features-list">
+                <li class="dest-feature-tag"><i class="fa-solid fa-spa"></i> Natural Forest Onsen</li>
+                <li class="dest-feature-tag"><i class="fa-solid fa-seedling"></i> Master Tea Rituals</li>
+                <li class="dest-feature-tag"><i class="fa-solid fa-torii-gate"></i> VIP Temple Access</li>
+              </ul>
+
+              <div class="dest-footer">
+                <div class="dest-pricing">
+                  <span class="dest-price-label">10 Days • 9 Nights</span>
+                  <span class="dest-price-val">$7,200 <span class="dest-price-unit">/ guest</span></span>
+                </div>
+                <a href="#modal-kyoto" class="btn btn-outline-gold btn-sm">View Itinerary</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Destination 4: Amalfi Coast -->
+          <article class="dest-card" id="card-amalfi">
+            <div class="dest-image-wrap">
+              <img src="images/amalfi.jpg" alt="Cliffside terrace in Positano Amalfi Coast" class="dest-image" loading="lazy">
+              <div class="dest-image-gradient"></div>
+              <span class="badge badge-glow dest-badge-top">Mediterranean Glamour</span>
+              <div class="dest-rating">
+                <span>★</span> 4.96
+              </div>
+              <div class="dest-location-tag">
+                <i class="fa-solid fa-location-dot"></i> Positano & Capri, Italy
+              </div>
+            </div>
+            <div class="dest-content">
+              <h3 class="dest-title">Sun-Drenched Tyrrhenian Splendor</h3>
+              <p class="dest-tagline">Private cliff-hanging villas among fragrant lemon groves, Capri speed boat charters, and sommelier cellar tours.</p>
+              
+              <ul class="dest-features-list">
+                <li class="dest-feature-tag"><i class="fa-solid fa-wine-glass"></i> Private Sommelier Cellar</li>
+                <li class="dest-feature-tag"><i class="fa-solid fa-ship"></i> Classic Riva Boat Tour</li>
+                <li class="dest-feature-tag"><i class="fa-solid fa-umbrella-beach"></i> Secluded Beach Club</li>
+              </ul>
+
+              <div class="dest-footer">
+                <div class="dest-pricing">
+                  <span class="dest-price-label">8 Days • 7 Nights</span>
+                  <span class="dest-price-val">$5,400 <span class="dest-price-unit">/ guest</span></span>
+                </div>
+                <a href="#modal-amalfi" class="btn btn-outline-gold btn-sm">View Itinerary</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Destination 5: Serengeti Safari -->
+          <article class="dest-card" id="card-safari">
+            <div class="dest-image-wrap">
+              <img src="images/safari.jpg" alt="Luxury Serengeti safari lodge deck at sunset" class="dest-image" loading="lazy">
+              <div class="dest-image-gradient"></div>
+              <span class="badge badge-glow dest-badge-top">Untamed Wilderness</span>
+              <div class="dest-rating">
+                <span>★</span> 5.0
+              </div>
+              <div class="dest-location-tag">
+                <i class="fa-solid fa-location-dot"></i> Serengeti & Ngorongoro, Tanzania
+              </div>
+            </div>
+            <div class="dest-content">
+              <h3 class="dest-title">The Great Migration Aerial Safari</h3>
+              <p class="dest-tagline">Bespoke luxury tented suites on the migration path, sunrise hot air balloon flights, and expert Maasai trackers.</p>
+              
+              <ul class="dest-features-list">
+                <li class="dest-feature-tag"><i class="fa-solid fa-binoculars"></i> Private 4x4 & Ranger</li>
+                <li class="dest-feature-tag"><i class="fa-solid fa-wind"></i> Hot Air Balloon Safari</li>
+                <li class="dest-feature-tag"><i class="fa-solid fa-campground"></i> Canvas Luxury Suite</li>
+              </ul>
+
+              <div class="dest-footer">
+                <div class="dest-pricing">
+                  <span class="dest-price-label">9 Days • 8 Nights</span>
+                  <span class="dest-price-val">$8,900 <span class="dest-price-unit">/ guest</span></span>
+                </div>
+                <a href="#modal-safari" class="btn btn-outline-gold btn-sm">View Itinerary</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Destination 6: Iceland Aurora -->
+          <article class="dest-card" id="card-iceland">
+            <div class="dest-image-wrap">
+              <img src="images/iceland.jpg" alt="Glass igloo under Northern Lights in Iceland" class="dest-image" loading="lazy">
+              <div class="dest-image-gradient"></div>
+              <span class="badge badge-glow dest-badge-top">Arctic Wonders</span>
+              <div class="dest-rating">
+                <span>★</span> 4.99
+              </div>
+              <div class="dest-location-tag">
+                <i class="fa-solid fa-location-dot"></i> Reykjanes & Southern Coast, Iceland
+              </div>
+            </div>
+            <div class="dest-content">
+              <h3 class="dest-title">Aurora Domes & Geothermal Springs</h3>
+              <p class="dest-tagline">Heated glass igloos beneath dancing celestial ribbons, private volcanic lagoon soaking, and glacier ice caves.</p>
+              
+              <ul class="dest-features-list">
+                <li class="dest-feature-tag"><i class="fa-solid fa-star"></i> Glass Aurora Suite</li>
+                <li class="dest-feature-tag"><i class="fa-solid fa-hot-tub-person"></i> Private Geothermal Spa</li>
+                <li class="dest-feature-tag"><i class="fa-solid fa-snowflake"></i> Glacier Cave Trek</li>
+              </ul>
+
+              <div class="dest-footer">
+                <div class="dest-pricing">
+                  <span class="dest-price-label">6 Days • 5 Nights</span>
+                  <span class="dest-price-val">$4,950 <span class="dest-price-unit">/ guest</span></span>
+                </div>
+                <a href="#modal-iceland" class="btn btn-outline-gold btn-sm">View Itinerary</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Signature Odyssey Spotlight Section -->
+    <section class="section section-dark" id="signature">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-subtitle">Flagship Journey</span>
+          <h2 class="section-title">The Celestial Arctic & Geothermal Odyssey</h2>
+          <p class="section-desc">
+            An ultra-exclusive 10-day immersive expedition exploring Iceland's untamed volcanic landscapes and celestial aurora displays with personal helicopter transfers and glass-domed sanctuaries.
+          </p>
+        </div>
+
+        <div class="spotlight-card">
+          <!-- Spotlight Media -->
+          <div class="spotlight-media">
+            <img src="images/iceland.jpg" alt="Flagship Arctic Aurora Odyssey" loading="lazy">
+            <div class="spotlight-media-overlay"></div>
+            <span class="badge badge-glow spotlight-media-badge">
+              <i class="fa-solid fa-crown"></i> 2026 World's Best Expedition
+            </span>
+          </div>
+
+          <!-- Spotlight Content & Interactive Itinerary Accordion -->
+          <div class="spotlight-content">
+            <h3 class="spotlight-headline">Under the Emerald Aurora: 10 Days in Uncharted Iceland</h3>
+            <p class="spotlight-desc">
+              Sleep beneath unobstructed stellar horizons in heated architectural domes. Enjoy private after-hours access to the Blue Lagoon's secret geothermal chambers, private ice-cave champagne toasts, and dedicated astrophotography experts.
+            </p>
+
+            <!-- Pure CSS Interactive Accordion (<details>/<summary>) -->
+            <div class="accordion-group">
+              
+              <details class="accordion-item" open>
+                <summary class="accordion-header">
+                  <div>
+                    <span class="accordion-day-badge">Day 01–02</span>
+                    Private Jet Arrival & Geothermal Sanctuary
+                  </div>
+                  <i class="fa-solid fa-chevron-down accordion-header-icon"></i>
+                </summary>
+                <div class="accordion-body">
+                  VIP airside tarmac transfer to The Retreat at Blue Lagoon. Private evening soak in reserved silica springs, tailored holistic moss massages, and a seven-course tasting menu at Michelin-recommended Moss Restaurant.
+                </div>
+              </details>
+
+              <details class="accordion-item">
+                <summary class="accordion-header">
+                  <div>
+                    <span class="accordion-day-badge">Day 03–05</span>
+                    Superjeep Glacier Exploration & Aurora Glass Domes
+                  </div>
+                  <i class="fa-solid fa-chevron-down accordion-header-icon"></i>
+                </summary>
+                <div class="accordion-body">
+                  Specially built monster superjeeps navigate deep onto Langjökull Glacier to explore private crystalline blue ice caves. Check-in to secluded panoramic glass igloos engineered for pristine Northern Lights observation.
+                </div>
+              </details>
+
+              <details class="accordion-item">
+                <summary class="accordion-header">
+                  <div>
+                    <span class="accordion-day-badge">Day 06–08</span>
+                    Helicopter Volcanic Fissures & Black Sand Fjords
+                  </div>
+                  <i class="fa-solid fa-chevron-down accordion-header-icon"></i>
+                </summary>
+                <div class="accordion-body">
+                  Soar over eruptive volcanic craters and touch down on remote peaks inaccessible by land. Private zodiac sailings among the towering crystal icebergs of Jökulsárlón glacier lagoon.
+                </div>
+              </details>
+
+              <details class="accordion-item">
+                <summary class="accordion-header">
+                  <div>
+                    <span class="accordion-day-badge">Day 09–10</span>
+                    Reykjavik Historic Penthouse & Gala Farewell
+                  </div>
+                  <i class="fa-solid fa-chevron-down accordion-header-icon"></i>
+                </summary>
+                <div class="accordion-body">
+                  Exclusive private buyout of the Old Harbor luxury loft, private modern art gallery tour, and private Viking culinary feast prepared by Iceland's leading master chef.
+                </div>
+              </details>
+
+            </div>
+
+            <!-- Pricing & Reserve CTA -->
+            <div class="spotlight-actions">
+              <div>
+                <span class="dest-price-label">All-Inclusive Expedition</span>
+                <div class="dest-price-val">$12,500 <span class="dest-price-unit">/ person</span></div>
+              </div>
+              <a href="#inquiry" class="btn btn-primary btn-lg">Request Private Dates</a>
+              <a href="#modal-iceland" class="btn btn-secondary">Full Inclusions</a>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- The Aetheria Distinction (Why Us) -->
+    <section class="section section-pattern" id="pillars">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-subtitle">The Aetheria Distinction</span>
+          <h2 class="section-title">Why The World's Discerning Choose Us</h2>
+          <p class="section-desc">
+            We operate at the intersection of extreme comfort, uncompromising confidentiality, and genuine immersion in rare environments.
+          </p>
+        </div>
+
+        <div class="pillars-grid">
+          
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <i class="fa-solid fa-compass-drafting"></i>
+            </div>
+            <h3 class="pillar-title">100% Bespoke Crafting</h3>
+            <p class="pillar-desc">
+              No pre-packaged tours. Every hour is designed from scratch around your personal desires, dietary preferences, and travel rhythm by a senior destination master.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <i class="fa-solid fa-key"></i>
+            </div>
+            <h3 class="pillar-title">Privileged & Rare Access</h3>
+            <p class="pillar-desc">
+              Unlock doors invisible to normal tourists: closed-door museum hours, private royal estate visits, tribal chieftain welcomes, and restricted wilderness permits.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <i class="fa-solid fa-bell-concierge"></i>
+            </div>
+            <h3 class="pillar-title">24/7 Global White-Glove</h3>
+            <p class="pillar-desc">
+              A dedicated personal travel director stays on standby 24 hours a day, seamlessly managing flight reroutes, private charters, and spontaneous wishes.
+            </p>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon-box">
+              <i class="fa-solid fa-seedling"></i>
+            </div>
+            <h3 class="pillar-title">Conscious Eco-Conservation</h3>
+            <p class="pillar-desc">
+              Every expedition is 200% carbon-offset. A minimum of 5% of all expedition fees goes directly to local indigenous wildlife sanctuaries and marine conservation.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Traveler Stories / Testimonials -->
+    <section class="section section-dark" id="testimonials">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-subtitle">Guest Reflections</span>
+          <h2 class="section-title">Unforgettable Journeys in Their Words</h2>
+          <p class="section-desc">
+            Read authentic reviews from global patrons who trust Aetheria with their most cherished milestones.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          
+          <div class="testimonial-card">
+            <div class="quote-mark">“</div>
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              “Our private stay in the Swiss Alps chalet was transcendent. The helicopter transfer to the glacier for our 20th anniversary toast was executed with such poise. Aetheria sets the gold standard for luxury travel.”
+            </p>
+            <div class="testimonial-author-row">
+              <div class="author-avatar">ER</div>
+              <div class="author-info">
+                <span class="author-name">Elena Rostova</span>
+                <span class="author-role">Zurich, Switzerland • Swiss Alps Expedition</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-mark">“</div>
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              “From the moment we touched down in Bora Bora to the private pearl dive in Taha’a, every detail was immaculate. The level of care and discretion provided by our personal concierge was unmatched.”
+            </p>
+            <div class="testimonial-author-row">
+              <div class="author-avatar">MS</div>
+              <div class="author-info">
+                <span class="author-name">Marcus Sterling</span>
+                <span class="author-role">London, UK • French Polynesia Sanctuary</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="quote-mark">“</div>
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              “Watching the sunrise over the Serengeti from a hot air balloon, followed by champagne on the private deck with elephants grazing below—it was genuinely life-changing for our entire family.”
+            </p>
+            <div class="testimonial-author-row">
+              <div class="author-avatar">JC</div>
+              <div class="author-info">
+                <span class="author-name">Dr. Julian Chen</span>
+                <span class="author-role">San Francisco, USA • Tanzania Aerial Safari</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Bespoke Inquiry & Booking Form Section -->
+    <section class="section section-pattern" id="inquiry">
+      <div class="container">
+        
+        <div class="inquiry-wrapper">
+          <div class="inquiry-grid">
+            
+            <div class="inquiry-content">
+              <span class="badge badge-glow" style="margin-bottom: 1.25rem;">
+                <i class="fa-solid fa-paper-plane"></i> Direct Consultation
+              </span>
+              <h3>Begin Crafting Your Masterpiece Journey</h3>
+              <p>
+                Share your vision, and our senior expedition architects will assemble a bespoke private proposal within 4 business hours. No commitments required.
+              </p>
+
+              <ul class="inquiry-perks-list">
+                <li class="inquiry-perk-item">
+                  <div class="inquiry-perk-icon"><i class="fa-solid fa-check"></i></div>
+                  <div>
+                    <h4 class="inquiry-perk-title">Direct Expedition Architect Consultation</h4>
+                    <p class="inquiry-perk-desc">Speak directly with a specialist who has personally explored your destination.</p>
+                  </div>
+                </li>
+                <li class="inquiry-perk-item">
+                  <div class="inquiry-perk-icon"><i class="fa-solid fa-check"></i></div>
+                  <div>
+                    <h4 class="inquiry-perk-title">Uncompromising Privacy & Confidentiality</h4>
+                    <p class="inquiry-perk-desc">Non-disclosure agreements honored for high-profile and private party travel.</p>
+                  </div>
+                </li>
+                <li class="inquiry-perk-item">
+                  <div class="inquiry-perk-icon"><i class="fa-solid fa-check"></i></div>
+                  <div>
+                    <h4 class="inquiry-perk-title">Full Price Guarantee & Flexibility</h4>
+                    <p class="inquiry-perk-desc">Seamless date adjustments and comprehensive travel insurance protection.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Inquiry Form -->
+            <form class="inquiry-form" action="#inquiry" method="POST">
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="guest-name">Full Name *</label>
+                  <input type="text" id="guest-name" class="form-control" placeholder="e.g. Lord Alexander Wright" required>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="guest-email">Email Address *</label>
+                  <input type="email" id="guest-email" class="form-control" placeholder="alexander@domain.com" required>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="guest-phone">Phone Number</label>
+                  <input type="tel" id="guest-phone" class="form-control" placeholder="+1 (555) 000-0000">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="guest-destination">Preferred Destination</label>
+                  <select id="guest-destination" class="form-control">
+                    <option value="polynesia">French Polynesia (Bora Bora)</option>
+                    <option value="alps">Swiss Alps & Zermatt</option>
+                    <option value="kyoto">Kyoto & Tokyo, Japan</option>
+                    <option value="amalfi">Amalfi Coast & Capri, Italy</option>
+                    <option value="serengeti">Serengeti Safari, Tanzania</option>
+                    <option value="iceland">Iceland Aurora Expedition</option>
+                    <option value="other">Bespoke Multi-Country Itinerary</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="guest-date">Target Travel Season</label>
+                  <select id="guest-date" class="form-control">
+                    <option value="spring-2026">Spring 2026</option>
+                    <option value="summer-2026">Summer 2026</option>
+                    <option value="autumn-2026">Autumn / Fall 2026</option>
+                    <option value="winter-2026-27">Winter 2026 / 2027</option>
+                    <option value="2027-later">2027 or Beyond</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="guest-budget">Estimated Budget Per Guest</label>
+                  <select id="guest-budget" class="form-control">
+                    <option value="5k-10k">$5,000 – $10,000</option>
+                    <option value="10k-20k">$10,000 – $20,000</option>
+                    <option value="20k-50k">$20,000 – $50,000</option>
+                    <option value="unlimited">Ultra-High Net Worth / Private Charter</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="guest-notes">Special Desires or Milestones</label>
+                <textarea id="guest-notes" class="form-control" placeholder="Tell us about special occasions, preferred pace, dietary needs, or private charter requirements..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;" id="submit-inquiry">
+                <i class="fa-solid fa-paper-plane"></i> Request Bespoke Proposal
+              </button>
+
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Pure CSS Interactive Modals for Destinations (Targeted via #modal-id) -->
+  
+  <!-- Modal 1: Bora Bora -->
+  <div class="modal-overlay" id="modal-borabora">
+    <div class="modal-card">
+      <a href="#destinations" class="modal-close-btn" aria-label="Close modal">&times;</a>
+      <img src="images/hero.jpg" alt="Bora Bora Overwater Sanctuary" class="modal-header-img">
+      <div class="modal-body">
+        <span class="badge badge-glow" style="margin-bottom: 0.75rem;">French Polynesia</span>
+        <h3 class="modal-title">The Azure Overwater Sanctuary</h3>
+        <p class="modal-subtitle">8 Days • 7 Nights • Private Atoll Experience</p>
+
+        <div class="modal-specs-grid">
+          <div class="modal-spec-item">
+            <div class="modal-spec-label">Group Size</div>
+            <div class="modal-spec-val">Private Couple / Family</div>
+          </div>
+          <div class="modal-spec-item">
+            <div class="modal-spec-label">Accommodations</div>
+            <div class="modal-spec-val">End-of-Pontoon Pool Villa</div>
+          </div>
+          <div class="modal-spec-item">
+            <div class="modal-spec-label">Starting Rate</div>
+            <div class="modal-spec-val text-gold">$5,800 / guest</div>
+          </div>
+        </div>
+
+        <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: 1.5rem;">
+          Hovering over the crystal clear turquoise waters of Mount Otemanu's lagoon, this bespoke retreat offers uninhibited seclusion. Includes daily catamaran sails, private black pearl farm diving, traditional Polynesian outrigger breakfast deliveries, and an exclusive candlelit dinner on a deserted motu.
+        </p>
+
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <a href="#inquiry" class="btn btn-primary">Book This Sanctuary</a>
+          <a href="#destinations" class="btn btn-secondary">Back to Destinations</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Swiss Alps -->
+  <div class="modal-overlay" id="modal-alps">
+    <div class="modal-card">
+      <a href="#destinations" class="modal-close-btn" aria-label="Close modal">&times;</a>
+      <img src="images/alps.jpg" alt="Swiss Alps Chalet" class="modal-header-img">
+      <div class="modal-body">
+        <span class="badge badge-glow" style="margin-bottom: 0.75rem;">Switzerland</span>
+        <h3 class="modal-title">Matterhorn High-Altitude Solitude</h3>
+        <p class="modal-subtitle">7 Days • 6 Nights • Valais Alpine Solitude</p>
+
+        <div class="modal-specs-grid">
+          <div class="modal-spec-item">
+            <div class="modal-spec-label">Group Size</div>
+            <div class="modal-spec-val">Up to 8 Guests</div>
+          </div>
+          <div class="modal-spec-item">
+            <div class="modal-spec-label">Accommodations</div>
+            <div class="modal-spec-val">Private Master Glass Chalet</div>
+          </div>
+          <div class="modal-spec-item">
+            <div class="modal-spec-label">Starting Rate</div>
+            <div class="modal-spec-val text-gold">$6,400 / guest</div>
+          </div>
+        </div>
+
+        <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: 1.5rem;">
+          Nestled high on the cliffs of Zermatt with unobstructed panoramic views of the iconic Matterhorn. Features a private live-in Michelin-starred chef, daily private heli-skiing or scenic glacier landings, and open-air cedar hot tubs under the snowy starlit sky.
+        </p>
+
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <a href="#inquiry" class="btn btn-primary">Book This Sanctuary</a>
+          <a href="#destinations" class="btn btn-secondary">Back to Destinations</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Kyoto Japan -->
+  <div class="modal-overlay" id="modal-kyoto">
+    <div class="modal-card">
+      <a href="#destinations" class="modal-close-btn" aria-label="Close modal">&times;</a>
+      <img src="images/kyoto.jpg" alt="Kyoto Ryokan" class="modal-header-img">
+      <div class="modal-body">
+        <span class="badge badge-glow" style="margin-bottom: 0.75rem;">Japan</span>
+        <h3 class="modal-title">Zen Sanctuaries & Imperial Ryokans</h3>
+        <p class="modal-subtitle">10 Days • 9 Nights • Kyoto & Arashiyama</p>
+
+        <div class="modal-specs-grid">
+          <div class="modal-spec-item">
+            <div class="modal-spec-label">Access</div>
+            <div class="modal-spec-val">Private Shinto Priest Welcome</div>
+          </div>
+          <div class="modal-spec-item">
+            <div class="modal-spec-label">Accommodations</div>
+            <div class="modal-spec-val">300-Year Heritage Onsen Suite</div>
+          </div>
+          <div class="modal-spec-item">
+            <div class="modal-spec-label">Starting Rate</div>
+            <div class="modal-spec-val text-gold">$7,200 / guest</div>
+          </div>
+        </div>
+
+        <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: 1.5rem;">
+          Experience ancient Japan far removed from crowds. Enjoy sunrise solitude inside the Arashiyama bamboo forest before gates open, attend an intimate tea ceremony with an Urasenke master, and luxuriate in healing geothermal hot springs overlooking vibrant maples.
+        </p>
+
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <a href="#inquiry" class="btn btn-primary">Book This Sanctuary</a>
+          <a href="#destinations" class="btn btn-secondary">Back to Destinations</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4: Amalfi Coast -->
+  <div class="modal-overlay" id="modal-amalfi">
+    <div class="modal-card">
+      <a href="#destinations" class="modal-close-btn" aria-label="Close modal">&times;</a>
+      <img src="images/amalfi.jpg" alt="Amalfi Coast Positano" class="modal-header-img">
+      <div class="modal-body">
+        <span class="badge badge-glow" style="margin-bottom: 0.75rem;">Italy</span>
+        <h3 class="modal-title">Sun-Drenched Tyrrhenian Splendor</h3>
+        <p class="modal-subtitle">8 Days • 7 Nights • Positano, Ravello & Capri</p>
+
+        <div class="modal-specs-grid">
+          <div class="modal-spec-item">
+            <div class="modal-spec-label">Vessel</div>
+            <div class="modal-spec-val">Private 48ft Riva Dolceriva</div>
+          </div>
+          <div class="modal-spec-item">
+            <div class="modal-spec-label">Accommodations</div>
+            <div class="modal-spec-val">Cliffside Villa with Lemon Grove</div>
+          </div>
+          <div class="modal-spec-item">
+            <div class="modal-spec-label">Starting Rate</div>
+            <div class="modal-spec-val text-gold">$5,400 / guest</div>
+          </div>
+        </div>
+
+        <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: 1.5rem;">
+          Wake up to the scent of organic citrus and sweeping Mediterranean horizons. Glide past the Faraglioni rocks of Capri on your private vintage wooden yacht, dine in historic clifftop lemon groves, and gain VIP access to private wine estates in Ravello.
+        </p>
+
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <a href="#inquiry" class="btn btn-primary">Book This Sanctuary</a>
+          <a href="#destinations" class="btn btn-secondary">Back to Destinations</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5: Serengeti Safari -->
+  <div class="modal-overlay" id="modal-safari">
+    <div class="modal-card">
+      <a href="#destinations" class="modal-close-btn" aria-label="Close modal">&times;</a>
+      <img src="images/safari.jpg" alt="Serengeti Safari Lodge" class="modal-header-img">
+      <div class="modal-body">
+        <span class="badge badge-glow" style="margin-bottom: 0.75rem;">Tanzania</span>
+        <h3 class="modal-title">The Great Migration Aerial Safari</h3>
+        <p class="modal-subtitle">9 Days • 8 Nights • Serengeti & Crater</p>
+
+        <div class="modal-specs-grid">
+          <div class="modal-spec-item">
+            <div class="modal-spec-label">Flight</div>
+            <div class="modal-spec-val">Bush Aviation & Balloon Safari</div>
+          </div>
+          <div class="modal-spec-item">
+            <div class="modal-spec-label">Accommodations</div>
+            <div class="modal-spec-val">Ultra-Luxe Mobile Tented Camp</div>
+          </div>
+          <div class="modal-spec-item">
+            <div class="modal-spec-label">Starting Rate</div>
+            <div class="modal-spec-val text-gold">$8,900 / guest</div>
+          </div>
+        </div>
+
+        <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: 1.5rem;">
+          Follow millions of wildebeest and zebras with privileged access to protected concession areas away from mainstream tourist vehicles. Unwind with fine wines on elevated hardwood viewing decks under acacia trees and lantern-lit skies.
+        </p>
+
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <a href="#inquiry" class="btn btn-primary">Book This Sanctuary</a>
+          <a href="#destinations" class="btn btn-secondary">Back to Destinations</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6: Iceland Aurora -->
+  <div class="modal-overlay" id="modal-iceland">
+    <div class="modal-card">
+      <a href="#destinations" class="modal-close-btn" aria-label="Close modal">&times;</a>
+      <img src="images/iceland.jpg" alt="Iceland Aurora Igloo" class="modal-header-img">
+      <div class="modal-body">
+        <span class="badge badge-glow" style="margin-bottom: 0.75rem;">Iceland</span>
+        <h3 class="modal-title">Aurora Domes & Geothermal Springs</h3>
+        <p class="modal-subtitle">6 Days • 5 Nights • Arctic Wonder Odyssey</p>
+
+        <div class="modal-specs-grid">
+          <div class="modal-spec-item">
+            <div class="modal-spec-label">Guides</div>
+            <div class="modal-spec-val">Dedicated Glaciologist & Photo Pro</div>
+          </div>
+          <div class="modal-spec-item">
+            <div class="modal-spec-label">Accommodations</div>
+            <div class="modal-spec-val">Panoramic Geothermal Glass Dome</div>
+          </div>
+          <div class="modal-spec-item">
+            <div class="modal-spec-label">Starting Rate</div>
+            <div class="modal-spec-val text-gold">$4,950 / guest</div>
+          </div>
+        </div>
+
+        <p style="color: var(--color-text-muted); line-height: 1.7; margin-bottom: 1.5rem;">
+          Watch vivid green and violet Aurora Borealis waves dance directly above your bed through custom thermo-glass geodesic domes. Soak in secluded natural volcanic hot springs and venture deep into luminescent blue glacier caves.
+        </p>
+
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <a href="#inquiry" class="btn btn-primary">Book This Sanctuary</a>
+          <a href="#destinations" class="btn btn-secondary">Back to Destinations</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        
+        <!-- Brand Description -->
+        <div>
+          <a href="#" class="brand-logo">
+            <div class="brand-icon">
+              <i class="fa-solid fa-compass"></i>
+            </div>
+            <div class="brand-text">
+              <span class="brand-title">AETHERIA</span>
+              <span class="brand-tagline">Expeditions</span>
+            </div>
+          </a>
+          <p class="footer-brand-desc">
+            Purveyors of rare, ultra-luxury journeys and private expeditions to Earth's most breathtaking sanctuaries. Crafting timeless travel memories since 2011.
+          </p>
+          <div class="footer-social-links">
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-link" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-link" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Destinations Links -->
+        <div>
+          <h4 class="footer-heading">Sanctuaries</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#modal-borabora">French Polynesia</a></li>
+            <li><a href="#modal-alps">Swiss Alps & Zermatt</a></li>
+            <li><a href="#modal-kyoto">Kyoto Imperial Gardens</a></li>
+            <li><a href="#modal-amalfi">Amalfi Coast & Capri</a></li>
+            <li><a href="#modal-safari">Serengeti Safari</a></li>
+            <li><a href="#modal-iceland">Iceland Aurora Domes</a></li>
+          </ul>
+        </div>
+
+        <!-- Experience & Company -->
+        <div>
+          <h4 class="footer-heading">Distinction</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#signature">Signature Odyssey</a></li>
+            <li><a href="#pillars">Private Aviation</a></li>
+            <li><a href="#pillars">Bespoke Yacht Charters</a></li>
+            <li><a href="#pillars">Conservation Pledge</a></li>
+            <li><a href="#testimonials">Client Testimonials</a></li>
+            <li><a href="#inquiry">Private Concierge</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter & Global Desks -->
+        <div class="footer-newsletter">
+          <h4 class="footer-heading">The Private Journal</h4>
+          <p>
+            Receive our quarterly private dispatch of newly opened private estates and unlisted expeditions.
+          </p>
+          <form class="newsletter-form" action="#hero" method="POST">
+            <input type="email" class="newsletter-input" placeholder="Your private email..." required>
+            <button type="submit" class="btn btn-primary btn-sm">Subscribe</button>
+          </form>
+          <div style="margin-top: 1.5rem; font-size: 0.8rem; color: var(--color-text-dim);">
+            <strong style="color: var(--color-text-muted);">Global Desks:</strong> New York • London • Zurich • Tokyo
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom">
+        <div>
+          © 2026 Aetheria Expeditions Inc. All rights reserved. Virtuoso Member & IATA Certified.
+        </div>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Expedition</a>
+          <a href="#">Security & Escrow</a>
+          <a href="#">Carbon Offsets</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
