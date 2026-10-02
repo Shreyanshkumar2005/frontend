@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title -->
+    <title>Complete HTML Example</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+
+    <!-- Meta Description -->
+    <meta name="description" content="Complete HTML example">
+
+</head>
+
+<body>
+
+    <!-- ==================== HEADER ==================== -->
+
+    <header>
+
+        <h1>My HTML Website</h1>
+
+        <p>This page demonstrates important HTML tags.</p>
+
+        <!-- Navigation -->
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#table">Table</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <hr>
+
+
+    <!-- ==================== MAIN ==================== -->
+
+    <main>
+
+
+        <!-- ==================== HOME ==================== -->
+
+        <section id="home">
+
+            <h2>Home</h2>
+
+            <p>
+                This is a paragraph written using the
+                <strong>HTML</strong> language.
+            </p>
+
+            <p>
+                HTML stands for
+                <abbr title="HyperText Markup Language">HTML</abbr>.
+            </p>
+
+            <br>
+
+            <hr>
+
+        </section>
+
+
+        <!-- ==================== TEXT FORMATTING ==================== -->
+
+        <section>
+
+            <h2>Text Formatting</h2>
+
+            <p><b>Bold Text</b></p>
+
+            <p><strong>Strong Text</strong></p>
+
+            <p><i>Italic Text</i></p>
+
+            <p><em>Emphasized Text</em></p>
+
+            <p><u>Underlined Text</u></p>
+
+            <p><mark>Highlighted Text</mark></p>
+
+            <p><small>Small Text</small></p>
+
+            <p><del>Deleted Text</del></p>
+
+            <p><ins>Inserted Text</ins></p>
+
+            <p>H<sub>2</sub>O</p>
+
+            <p>X<sup>2</sup></p>
+
+            <p>
+                Press <kbd>Ctrl</kbd> + <kbd>C</kbd>
+            </p>
+
+            <p>
+                <code>print("Hello World")</code>
+            </p>
+
+            <pre>
+This is
+preformatted
+text.
+            </pre>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- ==================== ABOUT ==================== -->
+
+        <section id="about">
+
+            <h2>About Me</h2>
+
+            <!-- Image -->
+            <img
+                src="image.jpg"
+                alt="My Photo"
+                width="200"
+                height="200"
+            >
+
+            <p>
+                My name is <strong>Student</strong>.
+                I am learning <em>HTML</em>.
+            </p>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- ==================== LISTS ==================== -->
+
+        <section id="skills">
+
+            <h2>Lists</h2>
+
+
+            <!-- Unordered List -->
+
+            <h3>Unordered List</h3>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+            </ul>
+
+
+            <!-- Ordered List -->
+
+            <h3>Ordered List</h3>
+
+            <ol>
+                <li>Wake Up</li>
+                <li>Study</li>
+                <li>Practice</li>
+                <li>Sleep</li>
+            </ol>
+
+
+            <!-- Ordered List with Start -->
+
+            <h3>Ordered List Starting From 5</h3>
+
+            <ol start="5">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ol>
+
+
+            <!-- Nested List -->
+
+            <h3>Nested List</h3>
+
+            <ul>
+
+                <li>
+                    Programming
+
+                    <ul>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C++</li>
+                    </ul>
+
+                </li>
+
+                <li>
+                    Web Development
+
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+
+                </li>
+
+            </ul>
+
+
+            <!-- Description List -->
+
+            <h3>Description List</h3>
+
+            <dl>
+
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language</dd>
+
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets</dd>
+
+                <dt>JS</dt>
+                <dd>JavaScript</dd>
+
+            </dl>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- ==================== LINKS ==================== -->
+
+        <section>
+
+            <h2>Links</h2>
+
+            <p>
+                <a href="https://www.google.com">
+                    Google
+                </a>
+            </p>
+
+            <p>
+                <a
+                    href="https://www.google.com"
+                    target="_blank"
+                >
+                    Open Google in New Tab
+                </a>
+            </p>
+
+            <p>
+                <a href="mailto:example@gmail.com">
+                    Send Email
+                </a>
+            </p>
+
+            <p>
+                <a href="tel:+911234567890">
+                    Call Us
+                </a>
+            </p>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- ==================== TABLE ==================== -->
+
+        <section id="table">
+
+            <h2>Student Table</h2>
+
+            <table border="1">
+
+                <caption>
+                    Student Details
+                </caption>
+
+                <tr>
+                    <th>Name</th>
+                    <th>Roll No</th>
+                    <th>Course</th>
+                    <th>Marks</th>
+                </tr>
+
+                <tr>
+                    <td>Rahul</td>
+                    <td>101</td>
+                    <td>B.Tech</td>
+                    <td>85</td>
+                </tr>
+
+                <tr>
+                    <td>Aman</td>
+                    <td>102</td>
+                    <td>B.Tech</td>
+                    <td>90</td>
+                </tr>
+
+                <tr>
+                    <td>Ravi</td>
+                    <td>103</td>
+                    <td>B.Tech</td>
+                    <td>80</td>
+                </tr>
+
+            </table>
+
+
+            <br>
+
+
+            <!-- Colspan -->
+
+            <table border="1">
+
+                <tr>
+                    <th colspan="2">
+                        Student Information
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>Name</td>
+                    <td>Rahul</td>
+                </tr>
+
+                <tr>
+                    <td>Age</td>
+                    <td>20</td>
+                </tr>
+
+            </table>
+
+
+            <br>
+
+
+            <!-- Rowspan -->
+
+            <table border="1">
+
+                <tr>
+                    <th rowspan="2">
+                        Student
+                    </th>
+
+                    <td>Rahul</td>
+                </tr>
+
+                <tr>
+                    <td>Aman</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- ==================== FORM ==================== -->
+
+        <section id="contact">
+
+            <h2>Registration Form</h2>
+
+            <form action="/submit" method="post">
+
+
+                <!-- Text -->
+
+                <label for="name">
+                    Name:
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+                <br><br>
+
+
+                <!-- Email -->
+
+                <label for="email">
+                    Email:
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <br><br>
+
+
+                <!-- Password -->
+
+                <label for="password">
+                    Password:
+                </label>
+
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                >
+
+                <br><br>
+
+
+                <!-- Number -->
+
+                <label for="age">
+                    Age:
+                </label>
+
+                <input
+                    type="number"
+                    id="age"
+                    min="1"
+                    max="100"
+                >
+
+                <br><br>
+
+
+                <!-- Date -->
+
+                <label for="date">
+                    Date:
+                </label>
+
+                <input
+                    type="date"
+                    id="date"
+                >
+
+                <br><br>
+
+
+                <!-- Time -->
+
+                <label for="time">
+                    Time:
+                </label>
+
+                <input
+                    type="time"
+                    id="time"
+                >
+
+                <br><br>
+
+
+                <!-- File -->
+
+                <label for="file">
+                    Upload File:
+                </label>
+
+                <input
+                    type="file"
+                    id="file"
+                >
+
+                <br><br>
+
+
+                <!-- Color -->
+
+                <label for="color">
+                    Choose Color:
+                </label>
+
+                <input
+                    type="color"
+                    id="color"
+                >
+
+                <br><br>
+
+
+                <!-- Range -->
+
+                <label for="range">
+                    Range:
+                </label>
+
+                <input
+                    type="range"
+                    id="range"
+                    min="0"
+                    max="100"
+                >
+
+                <br><br>
+
+
+                <!-- Radio Buttons -->
+
+                <p>Gender:</p>
+
+                <input
+                    type="radio"
+                    id="male"
+                    name="gender"
+                    value="male"
+                >
+
+                <label for="male">
+                    Male
+                </label>
+
+
+                <input
+                    type="radio"
+                    id="female"
+                    name="gender"
+                    value="female"
+                >
+
+                <label for="female">
+                    Female
+                </label>
+
+                <br><br>
+
+
+                <!-- Checkboxes -->
+
+                <p>Skills:</p>
+
+                <input
+                    type="checkbox"
+                    id="html"
+                    name="skills"
+                    value="html"
+                >
+
+                <label for="html">
+                    HTML
+                </label>
+
+
+                <input
+                    type="checkbox"
+                    id="css"
+                    name="skills"
+                    value="css"
+                >
+
+                <label for="css">
+                    CSS
+                </label>
+
+
+                <input
+                    type="checkbox"
+                    id="python"
+                    name="skills"
+                    value="python"
+                >
+
+                <label for="python">
+                    Python
+                </label>
+
+                <br><br>
+
+
+                <!-- Dropdown -->
+
+                <label for="country">
+                    Country:
+                </label>
+
+                <select id="country" name="country">
+
+                    <option value="">
+                        Select Country
+                    </option>
+
+                    <option value="india">
+                        India
+                    </option>
+
+                    <option value="usa">
+                        USA
+                    </option>
+
+                    <option value="uk">
+                        UK
+                    </option>
+
+                </select>
+
+                <br><br>
+
+
+                <!-- Datalist -->
+
+                <label for="city">
+                    City:
+                </label>
+
+                <input
+                    list="cities"
+                    id="city"
+                    name="city"
+                >
+
+                <datalist id="cities">
+
+                    <option value="Delhi">
+                    <option value="Mumbai">
+                    <option value="Gurugram">
+                    <option value="Bangalore">
+
+                </datalist>
+
+                <br><br>
+
+
+                <!-- Textarea -->
+
+                <label for="message">
+                    Message:
+                </label>
+
+                <br>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    cols="30"
+                    placeholder="Write your message"
+                ></textarea>
+
+                <br><br>
+
+
+                <!-- Submit -->
+
+                <button type="submit">
+                    Submit
+                </button>
+
+
+                <!-- Reset -->
+
+                <button type="reset">
+                    Reset
+                </button>
+
+
+            </form>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- ==================== DIV & SPAN ==================== -->
+
+        <section>
+
+            <h2>Div and Span</h2>
+
+            <div>
+
+                <h3>Student Information</h3>
+
+                <p>
+                    My name is
+                    <span>Rahul</span>.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- ==================== AUDIO ==================== -->
+
+        <section>
+
+            <h2>Audio</h2>
+
+            <audio controls>
+
+                <source
+                    src="audio.mp3"
+                    type="audio/mpeg"
+                >
+
+                Your browser does not support audio.
+
+            </audio>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- ==================== VIDEO ==================== -->
+
+        <section>
+
+            <h2>Video</h2>
+
+            <video
+                width="500"
+                controls
+            >
+
+                <source
+                    src="video.mp4"
+                    type="video/mp4"
+                >
+
+                Your browser does not support video.
+
+            </video>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- ==================== IFRAME ==================== -->
+
+        <section>
+
+            <h2>Iframe</h2>
+
+            <iframe
+                src="https://www.example.com"
+                width="600"
+                height="300"
+                title="Example Website"
+            >
+            </iframe>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- ==================== FIGURE ==================== -->
+
+        <section>
+
+            <h2>Figure</h2>
+
+            <figure>
+
+                <img
+                    src="mountain.jpg"
+                    alt="Mountain"
+                    width="300"
+                >
+
+                <figcaption>
+                    Beautiful Mountain
+                </figcaption>
+
+            </figure>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- ==================== DETAILS ==================== -->
+
+        <section>
+
+            <h2>Details</h2>
+
+            <details>
+
+                <summary>
+                    Click to see more
+                </summary>
+
+                <p>
+                    This is hidden content that appears
+                    when the user opens the details.
+                </p>
+
+            </details>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- ==================== PROGRESS ==================== -->
+
+        <section>
+
+            <h2>Progress</h2>
+
+            <p>
+                HTML Progress:
+            </p>
+
+            <progress
+                value="70"
+                max="100"
+            >
+                70%
+            </progress>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- ==================== METER ==================== -->
+
+        <section>
+
+            <h2>Meter</h2>
+
+            <meter
+                value="70"
+                min="0"
+                max="100"
+            >
+                70
+            </meter>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- ==================== QUOTATION ==================== -->
+
+        <section>
+
+            <h2>Quotation</h2>
+
+            <blockquote>
+                Learning never stops.
+            </blockquote>
+
+            <p>
+                He said,
+                <q>Hello World</q>.
+            </p>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- ==================== ADDRESS ==================== -->
+
+        <section>
+
+            <h2>Address</h2>
+
+            <address>
+
+                K.R. Mangalam University<br>
+                Gurugram, Haryana<br>
+                India
+
+            </address>
+
+        </section>
+
+
+        <hr>
+
+
+        <!-- ==================== ASIDE ==================== -->
+
+        <aside>
+
+            <h2>Related Information</h2>
+
+            <p>
+                HTML is used to create the structure
+                of webpages.
+            </p>
+
+        </aside>
+
+
+    </main>
+
+
+    <!-- ==================== FOOTER ==================== -->
+
+    <footer>
+
+        <hr>
+
+        <p>
+            &copy; 2026 My Website
+        </p>
+
+        <p>
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
